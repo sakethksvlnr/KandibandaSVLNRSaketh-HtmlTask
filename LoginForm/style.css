@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+
+}
+.center
+{
+	width: 450px;
+	margin: 90px auto;
+	position: relative;
+	background: white;
+	border-style: solid;
+	border-color:black;
+	box-shadow: 2px 3px;
+
+}
+.center .header{
+	padding-left:30px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	padding: 25px 1 25px 25px;
+	background:#ADD8E6;
+	border-bottom: 1px solid #370e3f;
+	border-radius: 3px 3px 0 0;
+	}
+header i
+{
+}
+i.fa-graduation-cap
+{
+	position: absolute;
+	left:20px;
+	right: 400px;
+	top:5px;
+	font-size:25px;
+}
+i.fa-times{
+	position: absolute;
+	left:430px;
+	right:100px;
+	top:5px;
+	color:solid silver;
+	font-size: 20px;
+
+}
+.center.form
+{
+	postion:absolute;
+	background: white;
+	width: 100%;
+	padding: 50px 10px 0 30px;
+	box-sizing: border-box;
+	border: 5px solid #6d1c7d;
+	border-radius: 0 0 5px 5px;
+	border-color: black;
+}
+
+form input{
+	height: 30px;
+	width: 90%;
+	padding: 0 10px;
+	border-radius: 3px;
+	border: 1px solid silver;
+	font-size: 15px;
+	outline: none;
+}
+form input[type="text"]
+{
+	margin-left:10px;
+	margin-top: 20px;
+}
+form input[type="password"]{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+form i{
+	position: absolute;
+	font-size: 20px;
+	color: silver;
+	margin: 25px 0 0 -25px;
+}
+
+form input[type="submit"]{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left:10px;
+	font-weight: bold;
+	width: 430px;
+	height: 45px;
+	color: white;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 45px;
+	border-radius: 5px;
+	background:#ADD8E6 ;
+}
+form input[type="submit"]:hover{
+	opacity:0.7;
+	transition: .5s;
+}
+
+.fa {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+  width: 410px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px 10px;
+  
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.epam
+{
+  font-style:;
+  font-weight: bold;
+  color:white;
+  background: #9acd32 ;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  
+  padding-bottom: 2px;
+  font-size: 15px;
+  width: 430px;
+  text-align: center;
+  order-radius: 10px 10px;
+}
+.epam:hover
+{
+	opacity: 0.7;
+}
+
+p
+{
+	width: 100%;
+	color:solid silver; 
+   text-align: center; 
+   border-bottom: 1px solid silver; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+}
+
+p span { 
+    background:#fff; 
+    padding:0 10px; 
+}
